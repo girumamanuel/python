@@ -1,0 +1,16 @@
+
+1.1.3 Describe what happens if you misspell (by, say, omitting the second letter)
+the following in helloworld.py:
+
+a. import       isport stdio
+                    ^
+                SyntaxError: invalid syntax
+
+b. stdio        import ssdio
+                ImportError: No module named 'ssdio'  
+
+c. write         stdio.wwite('Hello, World')
+                 AttributeError: module 'stdio' has no attribute 'wwite'
+                 
+d. writeln       stdio.wwiteln('Hello, World')
+                 AttributeError: module 'stdio' has no attribute 'wwiteln'
