@@ -1,0 +1,15 @@
+
+1.1.5 Describe what happens if you try to execute useargument.py with each of
+the following command lines:
+
+a. python useargument.py python    Hi, python. How are you?
+
+b. python useargument.py @!&^%    -bash: !: event not found 
+
+c. python useargument.py 1234      Hi, 1234. How are you?
+
+d. python useargument Bob          python3.5: can't open file 'useargument': [Errno 2] No such file or directory      
+
+e. useargument.py Bob              -bash: useargument.py: command not found
+
+f. python useargument.py Alice Bob  Hi, Alice. How are you?
