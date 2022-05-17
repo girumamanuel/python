@@ -1,0 +1,15 @@
+
+1.1.4 Describe what happens if you omit the following in helloworld.py:
+
+a. the first '   stdio.writeln(Hello, World')
+                              ^
+                 SyntaxError: EOL while scanning string literal
+
+b. the second '  stdio.writeln('Hello, World)
+                               ^
+                 SyntaxError: EOL while scanning string literal
+
+
+c. the stdio.writeln()     statement 'Hello, World`
+                                       ^
+                           SyntaxError: EOL while scanning string literal
