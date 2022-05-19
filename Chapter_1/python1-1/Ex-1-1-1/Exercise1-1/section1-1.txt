@@ -1,0 +1,52 @@
+
+Note Section 1.1 
+
+A data type is a set of values and a set of operations defined on those
+values.
+
+In Python code, we use operators and expressions
+like those in familiar mathematical expressions to invoke the operations associated
+with each type.
+
+The bool type is for computing with true-false values; the str type
+is for sequences of characters; the int and float data types are numeric types, for
+computing with numbers.
+
+The bool type (which includes the logical operators and , or , and not ) is the
+basis for logical decision making in Python programs, when used in conjunction
+with the comparison operators == , != , <, <= , > , and >= . Specifically, we use bool ex-
+pressions to control Python’s conditional ( if ) and loop ( while ) statements, which
+we will study in detail in the next section.
+
+The numeric types, built-in functions, and functions defined in Python’s
+standard and extension modules and in our booksite modules give us the abil-
+ity to use Python as an extensive mathematical calculator. We compose arithmetic
+expressions using the built-in operators + , - , * , / , // , % , and ** along with Python
+function calls.
+
+"Type conversion."
+
+Typical programming tasks involve processing multiple types
+of data. You should always be aware of the type of data that your program is pro-
+cessing, because only by knowing the type can you know precisely which set of
+values each object can have and which operations you can perform. In particular,
+we often need to convert data from one type to another.
+
+Comparison operators have lower precedence than arithmetic operators and
+higher precedence than boolean operators, so you do not need the parentheses in
+an expression like (b*b - 4.0*a*c) >= 0.0 , and you could write an expression
+like month >= 1 and month <= 12 without parentheses to test whether month is
+between 1 and 12. (It is better style to use the parentheses, however.).
+
+The most important operators of this kind are the comparison operators == , != , 
+ < , <= , > , and >= , which all are defined
+ for both integers and floats and evaluate to a boolean result.
+
+ The bool data type represents truth values (either true or false) from logic.
+
+ The data type has two possible values and two corresponding literals True and False .
+ The bool operations that we use have operands that are either 
+ True or False and evaluate to a result that is also either True or False.
+
+ Thefloat data type is for representing floatingpoint numbers, 
+ for use in scientific and commercial applications.
