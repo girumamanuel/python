@@ -1,0 +1,64 @@
+
+WEEK-1 Day -2 Python Summary Notes 
+
+    • When programming in python , you must always be aware of the type of data that your program is processing.
+    • a data type is a set of values and a set of operations defined on those values.
+    • Several data types are built into the Python language.
+
+Python’s built-in data types int (for integers), float (for floating-point numbers), str (for sequences of characters) and bool (for true-false values).
+
+
+    • To talk about data types, we need to introduce some terminology.
+          To do so, we start with the following code fragment:
+               a = 1234
+               b = 99
+               c = a + b
+    • This code creates three objects, each of type int , using the literals 1234 and 99 and the expression a + b , and binds (“bind” is a technical term indicating the creation of an association) variables a , b , and c to those objects using assignment statements.The end result is that variable c is bound to an object of type int whose value is 1333 .
+
+    • Literals. A literal is a Python-code representation of a data-type value. We use
+         sequences of digits such as 1234 or 99 to represent values of data type int ; we        add a decimal point, as in 3.14159 or 2.71828 , to represent values of type float , we
+use True or False to represent the two values of type bool ; and we use a sequence
+of characters enclosed in matching quotes, such as 'Hello, World' , to represent values of type str .
+
+    • Operators. An operator is a Python-code representation of a data-type operation.
+Python uses + and * to represent addition and multiplication for integers and floating-point numbers; Python uses and , or , and not to represent boolean operations;
+and so forth.
+
+    • Identifiers. An identifier is a Python-code representation of a name. Each identifier is a sequence of letters, digits, and underscores, the first of which is not a digit.
+The sequences of characters abc , Ab_ , abc123 , and a_b are all legal Python identifiers, but Ab* , 1abc , and a+b are not. Identifiers are case-sensitive, so Ab , ab , and AB are all different names.
+
+    • Variables. A variable is a name associated with a data-type value. We use variables to keep track of changing values as a computation unfolds.
+    • Constant variables. We use the oxymoronic term constant variable to describe a
+variable whose associated a data-type value does not change during the execution of a program.
+
+    • Expressions. An expression is a combination of literals, variables, and operators that Python evaluates to produce a value.
+
+    • Python has natural and well-defined precedence rules that fully specify this order. For arithmetic operations, multiplication and division are performed before addition and subtraction, so that a - b * c and a - (b * c) represent the same sequence of operations. When arithmetic operators have the same precedence, they are left associative, which means that a - b - c and (a - b) - c represent the same sequence of operations. The exponentiation operator ** is the exception: it is right associative, which means that a ** b ** c and a ** (b ** c) represent the same sequence of operations.
+    • In Python, we use an assignment statement for both purposes. When we write a = 1234 in Python, we are not expressing mathematical equality, but are instead expressing an action, directing Python to
+
+    • define the identifier a to be a new variable (if no variable a    already exists).
+    • associate the variable a with the integer data-type value 1234 .
+
+    • Informal trace. An effective way to keep track of the values associated with variables is to use a table like the one at right, with one line giving the values after each statement has been executed. Such a table is called a trace, and is a time-honored technique for understanding the behavior of a program.
+    • Objects. All data values in a Python program are represented by objects and relationships among objects. An object is an in-computer-memory representation of a value from a particular data type. Each object is characterized by its identity, type, and value.
+    • 
+    • The identity uniquely identifies an object. You should think of it as the
+      location in the computer’s memory (or memory address) where the object
+      is stored.
+
+    • The type of an object completely specifies its behavior—the set of values it
+might represent and the set of operations that can be performed on it.
+
+    • The value of an object is the data-type value that it represents.
+Each object stores one value; for example, an object of type int can store the value 1234 or the value 99 or the value 1333 . Different objects may store the same value.
+For example, one object of type str might store the value 'hello' , and another
+object of type str also might store the same value 'hello' . We can apply to an
+object any of the operations defined by its type (and only those operations). For example, we can multiply two int objects but not two str objects.
+
+    • Object references. An object reference is nothing more than a concrete representation of the object’s identity (the memory address where the object is stored).
+    • Converting numbers to strings for output. Python provides the built-in function
+to convert numbers to strings. For example, str(123) evaluates to the str object '123' , and str(123.45) evaluates to the str object '123.45' . If the argument to either stdio.write() or stdio.writeln() is not of type str , then these two functions automatically call the str() function on its argument to generate the string representation. For example, stdio.write(123) , stdio.write(str(123)) , and stdio.write('123') all write 123 .
+
+    • Converting strings to numbers for input. Python also provides built-in functions to convert strings (such as the ones we type as command-line arguments) to numeric objects. We use the Python built-in functions int() and float() for this purpose. For example, typing int('1234') in program text is equivalent to typing the int literal 1234 .
+ 
+
