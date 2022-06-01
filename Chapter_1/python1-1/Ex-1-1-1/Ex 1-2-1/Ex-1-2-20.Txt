@@ -1,0 +1,19 @@
+
+Programming With Python
+
+Ex. 1-2-20
+  
+Compose a program that takes two integers m and d from the command line and writes True if day d of month m is between March 20 and June 20, and False otherwise. (Interpret m with 1 for January, 2 for February, and so forth.)
+
+
+ 
+Ans. Ex. 1-2-20  
+
+import stdio
+import sys
+
+m = int(sys.argv[1])
+d = int(sys.argv[2])
+
+if (m == 3 and d >= 21 and d <=31 ) or ( m == 6 and d >= 1 and d <=20) or (m > 3 and m < 6 and d >=1 and d <=30) or (m == 5 and d ==31):
+stdio.writeln('True')
