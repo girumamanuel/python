@@ -1,0 +1,25 @@
+Programming With Python
+
+Ex 1. 2. 3  Suppose that a and b are booleans. Show that the expression (not (a and b) and (a or b)) or ((a and b) or not (a or b))
+evaluates to True 
+Ans. Ex 1. 2. 3  
+
+Result = (not (a and b) and (a or b)) or ((a and b) or not (a or b))
+X = not (a and b) and (a or b)
+Y = (a and b) or not (a or b)
+
+a       b      a and b    a or b     not (a and b)  X      not (a or b)   Y    Result
+True   True    True       True       False         False    False        True   True   
+True   False   False      True       True          True     False        False  True
+False  False   False      False      True          False    True         True   True            
+False  True    False      True       True          True     False        False  True       
+
+
+
+
+
+
+
+
+
+
