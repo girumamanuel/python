@@ -1,0 +1,11 @@
+
+Programming With Python
+
+Ex .1-2-15  
+
+Suppose that x and y are two floats that represent the Cartesian coordinates of a point (x, y) in the plane. 
+Give an expression that evaluates to the distance of the point from the origin.
+
+Ans. Ex .1-2-15 
+
+math.sqrt( xx +yy)
