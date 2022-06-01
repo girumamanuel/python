@@ -1,0 +1,12 @@
+
+Programming With Python 
+
+Ex. 1.2.9 
+
+Describe the effect of writing sqrt instead of math.sqrt in Program 1.1.2 .
+
+Ans. Ex. 1-2-9  
+
+Traceback (most recent call last):
+File "quadratic.py", line 13, in <module> d = sqrt(discriminant)
+NameError: name 'sqrt' is not defined
