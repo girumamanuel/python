@@ -1,0 +1,13 @@
+
+Programming With Python
+
+Ex 1.2.4  
+
+Suppose that a and b are integers. 
+Simplify the following expression: (not (a < b) and not (a > b))
+
+
+Ans. Ex 1- 2- 4 
+
+a > =b and a <= b
+a == b
