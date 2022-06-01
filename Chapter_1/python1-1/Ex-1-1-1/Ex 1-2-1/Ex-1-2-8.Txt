@@ -1,0 +1,21 @@
+
+Programming With Python 
+
+Ex. 1- 2 - 8  
+
+Suppose that a is 3.14159. What do each of these statements write? 
+
+A.stdio.writeln(a)
+B.stdio.writeln(a + 1.0)
+C.stdio.writeln(8 // int(a))
+D.stdio.writeln(8.0 / a)
+E.stdio.writeln(int(8.0 / a))
+
+
+Ans. Ex. 1- 2 - 8
+
+stdio.writeln(a) -> 3.14159
+stdio.writeln(a + 1.0) -> 4.14159
+stdio.writeln(8 // int(a)) -> 2
+stdio.writeln(8.0 / a) -> 2.5464812403910124
+stdio.writeln(int(8.0 / a)) -> 2
