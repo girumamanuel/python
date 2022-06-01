@@ -1,0 +1,20 @@
+
+Programming With Python 
+
+Ex 1.2.1  Suppose that a and b are integers. What does the following sequence of statements do? Draw an object-level trace of this computation.
+t = a
+b = t
+a = b
+Ans. Ex 1.2.1 
+Assume that a = 1, b = 12
+at the beginning:
+a --> 1
+b --> 12
+t=a
+t --> 1
+b=t
+t-->1
+a=b
+a-->1
+At the end: a =b = t
+
