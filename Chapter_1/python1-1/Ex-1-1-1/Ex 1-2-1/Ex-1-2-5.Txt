@@ -1,0 +1,21 @@
+
+Programming With Python
+
+Ex 1- 2- 5 
+ 
+What does each of these statements write?
+
+                                       Ans. Ex 1- 2- 5
+
+A.stdio.writeln(2 + 3)                          -> 5
+B.stdio.writeln(2.2 + 3.3)                    —> 5.5                    
+C.stdio.writeln('2' + '3')                     ->23
+D.stdio.writeln('2.2' + '3.3')               ->2.23.2
+E.stdio.writeln(str(2) + str(3))            ->23
+F.stdio.writeln(str(2.2) + str(3.3))       ->2.23.2
+G.stdio.writeln(int('2') + int('3'))        ->5
+H.stdio.writeln(int('2' + '3'))                -> 23
+I.stdio.writeln(float('2') + float('3'))     ->5.0
+J.stdio.writeln(float('2' + '3'))               ->23.0
+K.stdio.writeln(int(2.6 + 2.6))               -> 5
+L.stdio.writeln(int(2.6) + int(2.6))        -> 4
