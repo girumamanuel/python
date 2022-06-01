@@ -1,0 +1,10 @@
+
+Programming With Python 
+
+Ex. 1- 2 - 7 
+
+What does stdio.writeln((1.0 + 2 + 3 + 4) / 4) write?
+
+
+Ans. Ex. 1- 2 - 7 
+2.5
