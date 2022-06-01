@@ -1,0 +1,11 @@
+
+Programming With Python 
+ 
+Ex. 1-2-10   
+
+Does (math.sqrt(2) * math.sqrt(2) == 2) evaluate to True or False ?
+
+
+Ans. Ex. 1-2-10 
+>>> (math.sqrt(2) * math.sqrt(2) == 2)
+False
