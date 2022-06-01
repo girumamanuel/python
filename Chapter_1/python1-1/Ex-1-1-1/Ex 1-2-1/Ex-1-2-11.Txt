@@ -1,0 +1,13 @@
+
+Programming With Python 
+
+Ex. 1-2-11  
+
+Compose a program that takes two positive integers as command-line arguments and writes T rue if either evenly divides the other.
+
+
+Ans. Ex. 1-2-11  
+>>> a = 3
+>>> b = 6
+>>> ((a % b) == 0) or ((b %a) == 0 )
+True
